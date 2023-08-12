@@ -1,0 +1,37 @@
+{
+  "name": "cra-env-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cra-env-manager": "./bin/cra-env-manager.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rokerzfirst101/cra-env-manager.git"
+  },
+  "keywords": [
+    "cra",
+    "env",
+    "production",
+    "local"
+  ],
+  "author": "Rakshit Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rokerzfirst101/cra-env-manager/issues"
+  },
+  "homepage": "https://github.com/rokerzfirst101/cra-env-manager#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "webpack": "^5.88.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "@types/webpack": "^5.28.1",
+    "typescript": "^5.1.6"
+  }
+}
